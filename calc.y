@@ -25,7 +25,6 @@ void updateSymbolVal(char symbol, double val);
 %token <num> number
 %token <id> identifier
 %type <num> line exp term 
-%type <id> assignment
 
 %%
 
